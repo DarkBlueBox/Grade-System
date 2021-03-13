@@ -5,5 +5,5 @@ import java.sql.SQLException;
 
 public interface Connect {
     public Connection connect (String url, String user, String password) throws SQLException;
-    public String ExecSQL(String sql, String[] params) throws SQLException ;
+    public String ExecSQL(String sql) throws SQLException ;
 }
